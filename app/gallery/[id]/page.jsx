@@ -1,10 +1,28 @@
 'use client'
 import { showDialog } from '@/actions/index.actions'
 import PopupComponent from '@/components/Default/Popup'
-import { pagesgrid } from '@/constants/mainIndex'
+import { bestwebsites, ownProyects } from '@/constants/mainIndex'
 import TargetsA from "@/components/Main/TargetsA";
+import { useEffect, useState } from 'react';
 
-const GalleryPage = () => {
+const GalleryPageId = ({params}) => {
+
+    const [first, setFirst] = useState([])
+    
+    useEffect(() => {
+        switch (params.id) {
+          case 'pagesgrid':
+            setFirst(ownProyects);
+            break;
+          case 'bestwebsites':
+            setFirst(bestwebsites);
+            break;
+          default:
+            // Handle other cases if needed
+            break;
+        }
+      }, []);
+    
     return (
         <main className=' max-w-header flex flex-col gap-10 select-none'>
             <div className="max-w-header" >
@@ -25,10 +43,10 @@ const GalleryPage = () => {
                 <img className='rounded-xl shadow-[0_20px_50px_rgba(111,_113,_230,_0.5)]' src="https://res.cloudinary.com/dh01ngdjo/image/upload/v1708140053/FASHION/shinobu_hfkcwc.gif" alt="" />
             </div>
             <h1 className="mt-10 text-center text-body-bold">CATEGORIES</h1>
-            <TargetsA value={pagesgrid} />
+            <TargetsA value={first} />
 
         </main>
     )
 }
 
-export default GalleryPage
+export default GalleryPageId
