@@ -13,7 +13,7 @@ const Medici = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Orígenes y Ascenso</h2>
-          <p className="mb-4">La familia Medici emergió en el siglo XV como comerciantes acaudalados. Su riqueza y astucia comercial les permitieron establecerse como una fuerza política en Florencia. Cosimo de' Medici, patriarca de la familia, consolidó su posición política y financiera, convirtiéndose en el gobernante de facto de la ciudad. A través de alianzas matrimoniales estratégicas y un manejo inteligente de las finanzas, los Medici aseguraron su posición en la cima de la sociedad florentina.</p>
+          <p className="mb-4">La familia Medici emergió en el siglo XV como comerciantes acaudalados. Su riqueza y astucia comercial les permitieron establecerse como una fuerza política en Florencia. Cosimo de Medici, patriarca de la familia, consolidó su posición política y financiera, convirtiéndose en el gobernante de facto de la ciudad. A través de alianzas matrimoniales estratégicas y un manejo inteligente de las finanzas, los Medici aseguraron su posición en la cima de la sociedad florentina.</p>
         </section>
 
         <section className="mb-8">

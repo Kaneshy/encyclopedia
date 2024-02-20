@@ -13,12 +13,12 @@ const Stylish = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Orígenes y Ascenso</h2>
-          <p className="mb-4">La familia Medici emergió en el siglo XV como comerciantes acaudalados. Su riqueza y astucia comercial les permitieron establecerse como una fuerza política en Florencia. Cosimo de' Medici, patriarca de la familia, consolidó su posición política y financiera, convirtiéndose en el gobernante de facto de la ciudad. A través de alianzas matrimoniales estratégicas y un manejo inteligente de las finanzas, los Medici aseguraron su posición en la cima de la sociedad florentina.</p>
+          <p className="mb-4">La familia Medici emergió en el siglo XV como comerciantes acaudalados. Su riqueza y astucia comercial les permitieron establecerse como una fuerza política en Florencia. Cosimo de Medici, patriarca de la familia, consolidó su posición política y financiera, convirtiéndose en el gobernante de facto de la ciudad. A través de alianzas matrimoniales estratégicas y un manejo inteligente de las finanzas, los Medici aseguraron su posición en la cima de la sociedad florentina.</p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Mecenazgo Cultural</h2>
-          <p className="mb-4">La familia Medici fue famosa por su mecenazgo cultural, siendo benefactores de algunos de los artistas y pensadores más destacados del Renacimiento. Lorenzo de' Medici, conocido como "el Magnífico", transformó su corte en un centro intelectual donde florecieron las artes y las ciencias. Patrocinaron a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, así como a escritores y filósofos como Marsilio Ficino y Pico della Mirandola. Este mecenazgo contribuyó significativamente al florecimiento del Renacimiento y al desarrollo del Humanismo.</p>
+          <p className="mb-4">La familia Medici fue famosa por su mecenazgo cultural, siendo benefactores de algunos de los artistas y pensadores más destacados del Renacimiento. Lorenzo de Medici, conocido como "el Magnífico", transformó su corte en un centro intelectual donde florecieron las artes y las ciencias. Patrocinaron a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, así como a escritores y filósofos como Marsilio Ficino y Pico della Mirandola. Este mecenazgo contribuyó significativamente al florecimiento del Renacimiento y al desarrollo del Humanismo.</p>
         </section>
 
         <section className="mb-8">
