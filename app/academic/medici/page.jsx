@@ -18,7 +18,7 @@ const Medici = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Mecenazgo Cultural</h2>
-          <p className="mb-4">La familia Medici fue famosa por su mecenazgo cultural, siendo benefactores de algunos de los artistas y pensadores más destacados del Renacimiento. Lorenzo de' Medici, conocido como "el Magnífico", transformó su corte en un centro intelectual donde florecieron las artes y las ciencias. Patrocinaron a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, así como a escritores y filósofos como Marsilio Ficino y Pico della Mirandola. Este mecenazgo contribuyó significativamente al florecimiento del Renacimiento y al desarrollo del Humanismo.</p>
+          <p className="mb-4">La familia Medici fue famosa por su mecenazgo cultural, siendo benefactores de algunos de los artistas y pensadores más destacados del Renacimiento. Lorenzo de Medici, conocido como "el Magnífico", transformó su corte en un centro intelectual donde florecieron las artes y las ciencias. Patrocinaron a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, así como a escritores y filósofos como Marsilio Ficino y Pico della Mirandola. Este mecenazgo contribuyó significativamente al florecimiento del Renacimiento y al desarrollo del Humanismo.</p>
         </section>
 
         <section className="mb-8">
