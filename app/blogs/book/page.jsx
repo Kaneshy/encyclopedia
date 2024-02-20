@@ -1,9 +1,10 @@
+import SumaryBook from '@/components/Pagess/book/page'
 import React from 'react'
 
 
 const BookPage = () => {
     return (
-        <div className='flex flex-col gap-16 mt-10'>
+        <div className='flex flex-col gap-16  bg-neutral-900'>
             <div className='flex gap-10 flex-col items-center justify-center'>
                 <h1 className='t text-heading1-bold'>Emaze</h1>
                 <p className='t text-body-regular '>Puedes desactivar los controles y ajustar reproduccion automática de esta manera se remueve la marca de agua</p>
@@ -17,9 +18,9 @@ const BookPage = () => {
                         Visitar
                     </div>
                 </div>
-                <iframe src="https://app.emaze.com/@ALLCTTFLW/gallery?autoplay&hidebuttons" width="960px" height="540px" seamless webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://app.emaze.com/@ALLCTTFLW/gallery?autoplay&hidebuttons" width="960px" height="540px" seamless  allowFullScreen></iframe>
                 <p>Es posible activar los controles para controlar la presentación con marca de agua</p>
-                <iframe src="https://app.emaze.com/@ALLCTTFLW/gallery" width="960px" height="540px" seamless webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://app.emaze.com/@ALLCTTFLW/gallery" width="960px" height="540px" seamless   allowFullScreen></iframe>
 
             </div>
 
@@ -61,11 +62,15 @@ const BookPage = () => {
                             padding: 0,
                             margin: 0
                         }}
-                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF9Ei8f5hA&#x2F;NgbxE-z3XIgD1NsDMQfDnA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF9Ei8f5hA&#x2F;NgbxE-z3XIgD1NsDMQfDnA&#x2F;view?embed" allowFullScreen allow="fullscreen">
                     </iframe>
 
                 </div>
 
+            </div>
+
+            <div>
+                <SumaryBook/>
             </div>
 
 

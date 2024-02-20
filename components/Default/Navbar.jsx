@@ -8,10 +8,8 @@ const Navbar = () => {
             href={'/'}
             className='t text-body-bold'
             >WIKI</Link>
-            <section className='flex justify-between'>
-                <div>dd</div>
-                <div>dd</div>
-                <div>dd</div>
+            <section className='flex gap-6 justify-between'>
+               <Link href={'/Upload'}>UPLOAD</Link>
             </section>
         </nav>
     )
