@@ -3,5 +3,7 @@ export const categories = [
     'ownProyect',
     'bestWebsite',
     'blog',
-    'academicPapers'
+    'academicPapers',
+    'cheatSheets',
+    'papersPdf'
 ]

@@ -39,3 +39,13 @@ export async function findbySubject({value}) {
         console.log(error.message);
     }
 }
+
+export async function findPaperPdf({value}) {
+    try {
+        connectToDB()
+        const books = await Tarjet.findById(value)
+        return books
+    } catch (error) {
+        console.log(error.message);
+    }
+}

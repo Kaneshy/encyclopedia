@@ -37,7 +37,7 @@ const UploadPage = () => {
       console.log('upload status', res.data)
 
       if (res.status === 200) {
-        router.refresh();
+        router.push('/');
       }
 
     } catch (error) {

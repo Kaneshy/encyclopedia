@@ -29,6 +29,18 @@ export const maingrid = [
         desc:'any subject',
         link:'/Proyects/academicPapers',
         imgUrl:'https://res.cloudinary.com/dh01ngdjo/image/upload/v1708376695/my-uploads/zltpn2qo67s6hjvrdfgq.jpg'
+    },
+    {
+        title:'Cheat Sheets',
+        desc:'any subject',
+        link:'/Proyects/cheatSheets',
+        imgUrl:'https://res.cloudinary.com/dh01ngdjo/image/upload/v1708812380/Screenshot_2024-02-24_170210_bxryej.jpg'
+    },
+    {
+        title:'PDFs',
+        desc:'any subject',
+        link:'/papers/papersPdf',
+        imgUrl:'https://res.cloudinary.com/dh01ngdjo/image/upload/v1708812380/Screenshot_2024-02-24_170210_bxryej.jpg'
     }
     
        
