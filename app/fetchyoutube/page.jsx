@@ -39,8 +39,8 @@ const YouTubeComponent = () => {
         <div>
             <h2>YouTube Videos</h2>
             <ul> 
-                {videos.map(video => (
-                    <section>
+                {videos.map((video, i) => (
+                    <section key={i}>
                         <img src={video.snippet.thumbnails.default.url} alt="" />
                         <li key={video.id.videoId}>
                             <a

@@ -49,3 +49,12 @@ export async function findPaperPdf({value}) {
         console.log(error.message);
     }
 }
+
+export async function Startdbinit() {
+    try {
+        connectToDB()
+        return true
+    } catch (error) {
+        console.log(error.message);
+    }
+}

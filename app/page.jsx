@@ -1,8 +1,12 @@
 import TargetsPage from "@/components/Main/Targets";
 import { maingrid } from '@/constants/mainIndex'
+import { Startdbinit } from "@/libs/actions/index.actions";
 
 
-export default function Home() {
+export default async function Home() {
+
+  const startDB = await Startdbinit()
+
   return (
     <main>
       <div className="max-w-header flex flex-col gap-10" >
