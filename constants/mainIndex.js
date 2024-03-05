@@ -160,6 +160,12 @@ export const libros = [
         desc:'Mejores Libros aprendidos',
         link:'/libros/fisica',
         imgUrl:'https://res.cloudinary.com/dh01ngdjo/image/upload/v1708304727/Postafolio/Screenshot_2024-02-18_200508_bjomde.jpg'
+    },
+    {
+        title:'Art',
+        desc:'Mejores Libros aprendidos',
+        link:'/libros/art',
+        imgUrl:'https://res.cloudinary.com/dh01ngdjo/image/upload/v1708304727/Postafolio/Screenshot_2024-02-18_200508_bjomde.jpg'
     }
 ]
 
